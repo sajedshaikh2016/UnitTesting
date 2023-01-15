@@ -31,6 +31,7 @@ final class UnitTestingTests: XCTestCase {
         XCTAssert(extected == 20, "This should be 20")
         XCTAssertTrue(extected == 20)
         XCTAssertEqual(extected, 20, "This should be 20")
+        
     }
     
     func testBeSquareSucceeds() {
@@ -44,6 +45,7 @@ final class UnitTestingTests: XCTestCase {
         XCTAssert(expected == 16, "This should be 16")
         XCTAssertTrue(expected == 16)
         XCTAssertEqual(expected, 16, "This should be 16")
+        
     }
 
 }
