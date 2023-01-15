@@ -14,6 +14,7 @@
 		B471CAFE2973CC1000455055 /* UnitTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471CAFD2973CC1000455055 /* UnitTestingTests.swift */; };
 		B471CB082973CC1100455055 /* UnitTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471CB072973CC1100455055 /* UnitTestingUITests.swift */; };
 		B471CB0A2973CC1100455055 /* UnitTestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471CB092973CC1100455055 /* UnitTestingUITestsLaunchTests.swift */; };
+		B471CB172973D02700455055 /* SimpleMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B471CB162973D02700455055 /* SimpleMath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B471CB032973CC1100455055 /* UnitTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B471CB072973CC1100455055 /* UnitTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingUITests.swift; sourceTree = "<group>"; };
 		B471CB092973CC1100455055 /* UnitTestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B471CB162973D02700455055 /* SimpleMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				B471CAEE2973CC0F00455055 /* ContentView.swift */,
 				B471CAF02973CC1000455055 /* Assets.xcassets */,
 				B471CAF22973CC1000455055 /* Preview Content */,
+				B471CB162973D02700455055 /* SimpleMath.swift */,
 			);
 			path = UnitTesting;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B471CB172973D02700455055 /* SimpleMath.swift in Sources */,
 				B471CAEF2973CC0F00455055 /* ContentView.swift in Sources */,
 				B471CAED2973CC0F00455055 /* UnitTestingApp.swift in Sources */,
 			);
